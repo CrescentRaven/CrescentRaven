@@ -1,0 +1,26 @@
+{
+    "name": "CrescentRaven",
+    "keywords": "CrescentRaven",
+    "description": "Crescent Raven common utilities library.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CrescentRaven/CrescentRaven"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "exclude": "tests",
+    "frameworks": "*",
+    "platforms": "*",
+    "authors": {
+        "name": "Travis J. Gutjahr",
+        "email": "support@crescentraven.com",
+        "url": "https://www.crescentraven.com",
+        "maintainer": true
+    },
+    "dependencies": [],
+    "headers": "CrescentRaven.h",
+    "build": {
+        "unflags": "-std=gnu99 -std=gnu++11",
+        "flags": "-std=gnu17 -std=gnu++2a"
+    }
+}
